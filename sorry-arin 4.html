@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#140f10" />
+<title>To Arin</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap');
+
+  :root{
+    --bg: #140f10;
+    --bg-alt: #1d1416;
+    --ink: #f2e6de;
+    --ink-dim: #c9b6ac;
+    --rose: #c98a7d;
+    --gold: #cfa46a;
+    --line: rgba(242,230,222,0.14);
+  }
+
+  *{ box-sizing: border-box; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  @media (prefers-reduced-motion: no-preference){
+    .reveal{
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 1s ease, transform 1s ease;
+    }
+    .reveal.in{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  section{
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh 8vw;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid var(--line);
+  }
+
+  section:last-of-type{ border-bottom: none; }
+
+  section:nth-of-type(even){
+    background: var(--bg-alt);
+  }
+
+  .eyebrow{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    color: var(--rose);
+    margin-bottom: 1.4rem;
+    font-weight: 500;
+  }
+
+  h1, h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  h1{
+    font-size: clamp(2.8rem, 9vw, 5.2rem);
+  }
+
+  h2{
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    max-width: 14ch;
+  }
+
+  p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--ink-dim);
+    max-width: 42ch;
+    margin: 1.6rem 0 0;
+  }
+
+  .cover-names{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--gold);
+    margin-top: 1.6rem;
+    letter-spacing: 0.02em;
+  }
+
+  .thread{
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, var(--rose));
+    margin-top: 2.4rem;
+  }
+
+  .scroll-hint{
+    position: absolute;
+    bottom: 6vh;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    color: var(--ink-dim);
+    opacity: 0.6;
+  }
+
+  .signature{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    color: var(--gold);
+    margin-top: 2.4rem;
+  }
+
+  .heart{
+    margin-top: 2.2rem;
+    width: 34px;
+    height: 34px;
+    opacity: 0.85;
+  }
+
+  .final p{
+    margin-top: 1.2rem;
+  }
+
+  .final .name-line{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4rem;
+    margin-top: 2.4rem;
+    color: var(--ink);
+  }
+
+  footer{
+    text-align: center;
+    padding: 3rem 8vw 4rem;
+    background: var(--bg);
+    color: var(--ink-dim);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+  }
+</style>
+</head>
+<body>
+
+  <section id="cover">
+    <div class="eyebrow">a small apology</div>
+    <h1>For Arin</h1>
+    <div class="cover-names">from Fisayo</div>
+    <div class="thread"></div>
+    <div class="scroll-hint">scroll down</div>
+  </section>
+
+  <section>
+    <div class="reveal">
+      <div class="eyebrow">first, the truth</div>
+      <h2>I wasn't looking anywhere else.</h2>
+      <p>She followed me, asked me to drop a sticker on her posts for engagement, and I did — every time, on autopilot, without thinking about how it would look from outside. Not once was it about her.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="reveal">
+      <div class="eyebrow">and still</div>
+      <h2>I get why it didn't read that way to you.</h2>
+      <p>A guy showing up in the same girl's comments every single time she posts doesn't look like "just engagement" from where you're standing — it looks like attention. I was so focused on the reason behind it that I missed how it actually landed on you. I'm sorry for that.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="reveal">
+      <div class="eyebrow">so, concretely</div>
+      <h2>I'm done doing it.</h2>
+      <p>No more stickers, no more comments, no more "it's just engagement." Whatever she needed, it's not worth this. That's not a peace offering — it's just what should've been obvious from the start.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="reveal">
+      <div class="eyebrow">the hard part</div>
+      <h2>Distance already asks enough of you.</h2>
+      <p>You trust me with a lot, from far away, without being able to just look at my face and know I mean it. The least I owe you is being careful with that trust, not careless with it.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="reveal">
+      <div class="eyebrow">going forward</div>
+      <h2>I'll be more mindful. Not just say it.</h2>
+      <p>Not because I'm in trouble, but because you matter more to me than any comment section ever will. That should have been obvious. I'll make sure it is, from now on.</p>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="reveal">
+      <div class="eyebrow">last thing</div>
+      <h2>You're the one I'm choosing. Still. Only.</h2>
+      <p>I know a page doesn't fix it by itself. But I wanted you to have something to hold onto until I can say the rest of this in person.</p>
+      <div class="name-line">Fisayo</div>
+    </div>
+  </section>
+
+  <footer>made for Arin, with a little help getting the words out</footer>
+
+  <script>
+    const revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      revealEls.forEach(el => io.observe(el));
+    } else {
+      revealEls.forEach(el => el.classList.add('in'));
+    }
+  </script>
+
+</body>
+</html>
